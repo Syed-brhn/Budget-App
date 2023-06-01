@@ -1,0 +1,98 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+.form-container {
+    display: flex;
+    justify-content: space-around;
+    height: 200px;
+    align-items: center;
+
+
+}
+
+.budget-form {
+    background-color: burlywood;
+    height: 150px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.set-budget {
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: skyblue;
+    margin: 30px;
+    font-size: 20px;
+}
+
+.enter-new-exp {
+
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: skyblue;
+    margin: 30px;
+    font-size: 20px;
+
+}
+
+.expence-form {
+    background-color: burlywood;
+    height: 150px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.app-container {
+    background-color: red;
+    width: 60%;
+
+}
+
+.main-container {
+    display: flex;
+    justify-content: center;
+    background-color: blue;
+    height: 100vh;
+}
+
+.result-container {
+    display: flex;
+}
+
+.balance {
+    height: 100vh;
+    background-color: green;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+}
+
+.balance div {
+    text-align: center;
+
+}
+
+.expense-list-container {
+    background-color: brown;
+    width: 100%;
+    padding: 15px;
+}
+
+.expense-list-container ul li {
+    text-decoration: none;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+
+}
